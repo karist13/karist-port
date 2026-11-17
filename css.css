@@ -38,7 +38,7 @@ li {font-size: 20px;}
     gap: 22px;
 }
 
-#card1 {
+.card1 {
   width: 1800;
   background: var(--paper);
   border: 4px solid var(--ink);
@@ -77,4 +77,26 @@ li {font-size: 20px;}
 .imgbox {
     height: 120px;
     border: 4px solid var(--ink);
+}
+
+.boxpagelayout {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+.divpage {
+    display: flex;
+    flex-direction: column;
+}
+
+.imgpageleft {
+    border: #1d1d1f 3px solid;
+    width: 300px;
+}
+
+.boxaronudlayout {
+    display: flex;
+    justify-content: space-around;
 }
