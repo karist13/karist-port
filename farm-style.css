@@ -1,0 +1,17 @@
+body {
+  background-color: #53ad58;
+  margin: 50px;
+}
+
+#farm-con {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    row-gap: 20px;
+}
+
+.farm {
+    width: 250px;
+    height: 180px;
+    background: brown;
+}
