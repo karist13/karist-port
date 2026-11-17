@@ -1,0 +1,80 @@
+:root {
+  --cream: #f5edd9;
+  --ink: #1d1d1f;
+  --ink_shadow: #39393f;
+  --paper: #fffdf6;
+  --yellow: #ffd84d;
+  --red: #e8505b;
+  --green: #3fa34d;
+  --blue: #3b6fe0;
+  --muted: #5d5a52;
+  --pixel: 'Niramit', sans-serif;
+}
+
+body {
+  background: var(--cream);
+  margin: 50px 100px;
+}
+
+h1, h2, h3, p, li { font-family: var(--pixel)}
+li {font-size: 20px;}
+
+.Atext {
+    text-decoration: none;
+    color: var(--ink);
+}
+
+.layout {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  max-width: 2000px;
+  align-items: start;
+  margin-top: 30px;
+}
+
+.card1-layout {
+    display: flex;
+    gap: 22px;
+}
+
+#card1 {
+  width: 1800;
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  box-shadow: 8px 8px 0 var(--ink_shadow);
+  padding: 2px 32px;
+}
+
+.title {font-size: 52px;}
+
+#avatar {
+  width: 200px; height: 200px;
+  border: 4px solid var(--ink);
+  image-rendering: pixelated;
+  background: white;
+}
+
+.box-port {
+  width: 470px;
+  height: 250px;
+  background: var(--paper);
+  border: 4px solid var(--ink);
+  box-shadow: 8px 8px 0 var(--ink_shadow);
+  padding: 2px 16px;
+  margin: 10px;
+}
+
+.box-port.pop {
+    transform: scale(1.1);
+}
+
+.boxlayout {
+    display: flex;
+    gap: 20px;
+}
+
+.imgbox {
+    height: 120px;
+    border: 4px solid var(--ink);
+}
